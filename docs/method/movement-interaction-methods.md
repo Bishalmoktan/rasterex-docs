@@ -12,8 +12,8 @@ Syntax: RxCore.alignCompare(array)
 ```
 
 ### Parameters
-Parameters:
 ```typescript
+Parameters:
 - Array of align objects: Align object = {dist: distance, angle: angle, offset: offset, pwidth: pagewidth}
   offset = {x:xoffset, y:yoffset}
 
