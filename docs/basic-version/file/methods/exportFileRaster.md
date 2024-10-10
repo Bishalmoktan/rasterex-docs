@@ -17,17 +17,3 @@ RxCore.exportFileRaster(consolidate, format, UPI, paperSize, markupFlag)
 ### Returns
 
 - **NA** — This method does not return a value.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -104,7 +104,7 @@ const config: Config = {
           items: [
             {
               label: "Documentation",
-              to: "/docs/foxit-variant/getting-started/intro",
+              to: "/docs/pro-version/getting-started/intro",
             },
           ],
         },
