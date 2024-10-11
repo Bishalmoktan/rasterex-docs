@@ -5,7 +5,7 @@ Connection callback that is called when a file is loaded. Used to display page i
 - **getHeight()**: Returns the height of the canvas.
 - **hasmarkup(page)**: Returns true if the page has markup, false if not.
 
-###Callback Parameters
+### Callback Parameters
 
 - **thumbnails**: Array of thumbnail objects.
 

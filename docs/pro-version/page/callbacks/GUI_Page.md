@@ -1,6 +1,6 @@
 Connection callback event that is called when a page change occurs.
 
-###Callback Parameters
+### Callback Parameters
 
 - **pagingobject**: An object containing information about the page change.
 

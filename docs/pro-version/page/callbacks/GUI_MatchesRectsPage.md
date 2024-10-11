@@ -1,6 +1,6 @@
 This callback event is triggered when `RxCore.getTextRects` is used with Foxit PDF.
 
-###Callback Parameters
+### Callback Parameters
 
 - **numMatches**: An object that contains a `matcharray` with the rectangle objects for the search.
 - **CurrentPage**: The page where the matches were found.

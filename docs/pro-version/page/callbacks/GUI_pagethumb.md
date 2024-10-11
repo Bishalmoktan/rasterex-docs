@@ -1,6 +1,6 @@
 Connection callback that is called when a file is loaded. Used to display page image thumbnails.
 
-###Callback Parameters
+### Callback Parameters
 
 - **Thumbnail**: An object containing thumbnail information.
 
