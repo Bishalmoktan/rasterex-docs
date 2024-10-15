@@ -35,22 +35,21 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Remove this to remove the "edit this page" links.
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ["rss", "atom"],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
 
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: "warn",
+        //   onInlineAuthors: "warn",
+        //   onUntruncatedBlogPosts: "warn",
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -104,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: "Documentation",
-              to: "/docs/pro-version/getting-started/intro",
+              to: "/docs/introduction/file/methods/closeAll",
             },
           ],
         },
