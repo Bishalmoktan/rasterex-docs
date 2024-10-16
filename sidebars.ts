@@ -618,205 +618,206 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
-      ],
-    },
-    {
-      type: "category",
-      label: "Pro variant",
-      items: [
-        {
-          type: "category",
-          label: "Getting Started",
-          items: [
-            "pro-version/getting-started/intro",
-            "pro-version/getting-started/dependencies",
-            "pro-version/getting-started/how-to-add-to-html",
-            "pro-version/getting-started/foxit-web-sdk-integration",
-          ],
-        },
-        {
-          type: "category",
-          label: "File/Viewer",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: [
-                "pro-version/file/methods/hidedisplayCanvas",
-                "pro-version/file/methods/hideAllCanvas",
-                "pro-version/file/methods/initFoxit",
-              ],
-            },
-            {
-              type: "category",
-              label: "Callback Events",
-              items: ["pro-version/file/callbacks/GUI_FoxitReady"],
-            },
-          ],
-        },
-        {
-          type: "category",
-          label: "Document",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: ["pro-version/document/methods/endGetTextRects"],
-            },
-            {
-              type: "category",
-              label: "Callback Events",
-              items: ["pro-version/document/callbacks/GUI_NumMatchesRect"],
-            },
-          ],
-        },
-        {
-          type: "category",
-          label: "Page",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: [
-                "pro-version/page/methods/setBirdsEyeFoxit",
-                "pro-version/page/methods/singlePageScrollPan",
-              ],
-            },
-            {
-              type: "category",
-              label: "Callback Events",
-              items: ["pro-version/page/callbacks/GUI_MatchesRectsPage"],
-            },
-          ],
-        },
-        {
-          type: "category",
-          label: "Markup/Annoations",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: [
-                "pro-version/markup-annotations/methods/markupButtonFromMatch",
-                "pro-version/markup-annotations/methods/removeLastPoint",
-              ],
-            },
-          ],
-        },
 
         {
           type: "category",
-          label: "PDF",
+          label: "Pro variant",
           items: [
             {
               type: "category",
-              label: "Methods",
+              label: "Getting Started",
               items: [
-                "pro-version/pdf/methods/bringIframeToFront",
-                "pro-version/pdf/methods/changePDFLayer",
-                "pro-version/pdf/methods/checkLargePDF",
-                "pro-version/pdf/methods/createFoxitDoc",
-                "pro-version/pdf/methods/forcepagesState",
-                "pro-version/pdf/methods/foxitcalibratepagemarkupEx",
-                "pro-version/pdf/methods/foxitForceRedraw",
-                "pro-version/pdf/methods/getdivcontainer",
-                "pro-version/pdf/methods/getFoxitlframeID",
-                "pro-version/pdf/methods/getfoxitThumbnail",
-                "pro-version/pdf/methods/getPDFintialScale",
-                "pro-version/pdf/methods/importFDF",
-                "pro-version/pdf/methods/navigateBookmark",
-                "pro-version/pdf/methods/scrollBarCheck",
-                "pro-version/pdf/methods/setPDFBookmarks",
-                "pro-version/pdf/methods/setPDFLayers",
-                "pro-version/pdf/methods/setThumbnailFoxit",
+                "introduction/pro-version/getting-started/intro",
+                "introduction/pro-version/getting-started/dependencies",
+                "introduction/pro-version/getting-started/how-to-add-to-html",
+                "introduction/pro-version/getting-started/foxit-web-sdk-integration",
               ],
             },
             {
               type: "category",
-              label: "Callback Events",
-              items: ["pro-version/pdf/callbacks/GUI_TextCopied"],
+              label: "File/Viewer",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: [
+                    "introduction/pro-version/file/methods/hidedisplayCanvas",
+                    "introduction/pro-version/file/methods/hideAllCanvas",
+                    "introduction/pro-version/file/methods/initFoxit",
+                  ],
+                },
+                {
+                  type: "category",
+                  label: "Callback Events",
+                  items: ["introduction/pro-version/file/callbacks/GUI_FoxitReady"],
+                },
+              ],
             },
-          ],
-        },
+            {
+              type: "category",
+              label: "Document",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: ["introduction/pro-version/document/methods/endGetTextRects"],
+                },
+                {
+                  type: "category",
+                  label: "Callback Events",
+                  items: ["introduction/pro-version/document/callbacks/GUI_NumMatchesRect"],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Page",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: [
+                    "introduction/pro-version/page/methods/setBirdsEyeFoxit",
+                    "introduction/pro-version/page/methods/singlePageScrollPan",
+                  ],
+                },
+                {
+                  type: "category",
+                  label: "Callback Events",
+                  items: ["introduction/pro-version/page/callbacks/GUI_MatchesRectsPage"],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Markup/Annoations",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: [
+                    "introduction/pro-version/markup-annotations/methods/markupButtonFromMatch",
+                    "introduction/pro-version/markup-annotations/methods/removeLastPoint",
+                  ],
+                },
+              ],
+            },
 
-        {
-          type: "category",
-          label: "Callback Connection Objects",
-          items: ["pro-version/callback/introduction"],
-        },
-        {
-          type: "category",
-          label: "Markup Object",
-          items: ["pro-version/markup-methods/intro"],
-        },
-      ],
-    },
-    {
-      type: "category",
-      label: "Basic Version",
-      items: [
-        {
-          type: "category",
-          label: "Getting Started",
-          items: [
-            "basic-version/getting-started/intro",
-            "basic-version/getting-started/dependencies",
-            "basic-version/getting-started/how-to-add-to-html",
-          ],
-        },
-        {
-          type: "category",
-          label: "File/Viewer",
-          items: [
             {
               type: "category",
-              label: "Methods",
-              items: ["basic-version/file/methods/openFilePagesPDFdoc"],
+              label: "PDF",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: [
+                    "introduction/pro-version/pdf/methods/bringIframeToFront",
+                    "introduction/pro-version/pdf/methods/changePDFLayer",
+                    "introduction/pro-version/pdf/methods/checkLargePDF",
+                    "introduction/pro-version/pdf/methods/createFoxitDoc",
+                    "introduction/pro-version/pdf/methods/forcepagesState",
+                    "introduction/pro-version/pdf/methods/foxitcalibratepagemarkupEx",
+                    "introduction/pro-version/pdf/methods/foxitForceRedraw",
+                    "introduction/pro-version/pdf/methods/getdivcontainer",
+                    "introduction/pro-version/pdf/methods/getFoxitlframeID",
+                    "introduction/pro-version/pdf/methods/getfoxitThumbnail",
+                    "introduction/pro-version/pdf/methods/getPDFintialScale",
+                    "introduction/pro-version/pdf/methods/importFDF",
+                    "introduction/pro-version/pdf/methods/navigateBookmark",
+                    "introduction/pro-version/pdf/methods/scrollBarCheck",
+                    "introduction/pro-version/pdf/methods/setPDFBookmarks",
+                    "introduction/pro-version/pdf/methods/setPDFLayers",
+                    "introduction/pro-version/pdf/methods/setThumbnailFoxit",
+                  ],
+                },
+                {
+                  type: "category",
+                  label: "Callback Events",
+                  items: ["introduction/pro-version/pdf/callbacks/GUI_TextCopied"],
+                },
+              ],
             },
-            {
-              type: "category",
-              label: "Callback Events",
-              items: ["basic-version/file/callbacks/GUI_FileActivated"],
-            },
-          ],
-        },
-        {
-          type: "category",
-          label: "Page",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: ["basic-version/page/methods/loadThumbnails"],
-            },
-          ],
-        },
-        {
-          type: "category",
-          label: "PDF",
-          items: [
-            {
-              type: "category",
-              label: "Methods",
-              items: ["basic-version/pdf/methods/setPDFAnimateRender"],
-            },
-          ],
-        },
 
-        {
-          type: "category",
-          label: "Callback Connection Objects",
-          items: [
-            "basic-version/callback/introduction",
-            "basic-version/callback/GUI_PDFBookmarks",
-            "basic-version/callback/GUI_PDFPassWord",
-            "basic-version/callback/GUI_PDFRenderComplete",
+            {
+              type: "category",
+              label: "Callback Connection Objects",
+              items: ["introduction/pro-version/callback/introduction"],
+            },
+            {
+              type: "category",
+              label: "Markup Object",
+              items: ["introduction/pro-version/markup-methods/intro"],
+            },
           ],
         },
         {
           type: "category",
-          label: "Markup Object",
-          items: ["basic-version/markup-methods/intro"],
+          label: "Basic Version",
+          items: [
+            {
+              type: "category",
+              label: "Getting Started",
+              items: [
+                "introduction/basic-version/getting-started/intro",
+                "introduction/basic-version/getting-started/dependencies",
+                "introduction/basic-version/getting-started/how-to-add-to-html",
+              ],
+            },
+            {
+              type: "category",
+              label: "File/Viewer",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: ["introduction/basic-version/file/methods/openFilePagesPDFdoc"],
+                },
+                {
+                  type: "category",
+                  label: "Callback Events",
+                  items: ["introduction/basic-version/file/callbacks/GUI_FileActivated"],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Page",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: ["introduction/basic-version/page/methods/loadThumbnails"],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "PDF",
+              items: [
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: ["introduction/basic-version/pdf/methods/setPDFAnimateRender"],
+                },
+              ],
+            },
+
+            {
+              type: "category",
+              label: "Callback Connection Objects",
+              items: [
+                "introduction/basic-version/callback/introduction",
+                "introduction/basic-version/callback/GUI_PDFBookmarks",
+                "introduction/basic-version/callback/GUI_PDFPassWord",
+                "introduction/basic-version/callback/GUI_PDFRenderComplete",
+              ],
+            },
+            {
+              type: "category",
+              label: "Markup Object",
+              items: ["introduction/basic-version/markup-methods/intro"],
+            },
+          ],
         },
       ],
     },
