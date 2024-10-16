@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: "Documentation",
-              to: "/docs/introduction/file/methods/closeAll",
+              to: "/docs/introduction/intro",
             },
           ],
         },

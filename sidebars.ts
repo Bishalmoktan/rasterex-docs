@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Introduction",
       items: [
+        "introduction/introduction",
         {
           type: "category",
           label: "File/Viewer",
@@ -621,18 +622,18 @@ const sidebars: SidebarsConfig = {
 
         {
           type: "category",
-          label: "Pro variant",
+          label: "Markup Object",
+          items: ["introduction/markup-methods/intro"],
+        },
+
+        {
+          type: "category",
+          label: "Pro Version",
           items: [
-            {
-              type: "category",
-              label: "Getting Started",
-              items: [
-                "introduction/pro-version/getting-started/intro",
-                "introduction/pro-version/getting-started/dependencies",
-                "introduction/pro-version/getting-started/how-to-add-to-html",
-                "introduction/pro-version/getting-started/foxit-web-sdk-integration",
-              ],
-            },
+            "introduction/pro-version/getting-started/dependencies",
+            "introduction/pro-version/getting-started/how-to-add-to-html",
+            "introduction/pro-version/getting-started/foxit-web-sdk-integration",
+
             {
               type: "category",
               label: "File/Viewer",
@@ -649,7 +650,9 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Callback Events",
-                  items: ["introduction/pro-version/file/callbacks/GUI_FoxitReady"],
+                  items: [
+                    "introduction/pro-version/file/callbacks/GUI_FoxitReady",
+                  ],
                 },
               ],
             },
@@ -660,12 +663,16 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Methods",
-                  items: ["introduction/pro-version/document/methods/endGetTextRects"],
+                  items: [
+                    "introduction/pro-version/document/methods/endGetTextRects",
+                  ],
                 },
                 {
                   type: "category",
                   label: "Callback Events",
-                  items: ["introduction/pro-version/document/callbacks/GUI_NumMatchesRect"],
+                  items: [
+                    "introduction/pro-version/document/callbacks/GUI_NumMatchesRect",
+                  ],
                 },
               ],
             },
@@ -684,7 +691,9 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Callback Events",
-                  items: ["introduction/pro-version/page/callbacks/GUI_MatchesRectsPage"],
+                  items: [
+                    "introduction/pro-version/page/callbacks/GUI_MatchesRectsPage",
+                  ],
                 },
               ],
             },
@@ -733,7 +742,9 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Callback Events",
-                  items: ["introduction/pro-version/pdf/callbacks/GUI_TextCopied"],
+                  items: [
+                    "introduction/pro-version/pdf/callbacks/GUI_TextCopied",
+                  ],
                 },
               ],
             },
@@ -743,26 +754,14 @@ const sidebars: SidebarsConfig = {
               label: "Callback Connection Objects",
               items: ["introduction/pro-version/callback/introduction"],
             },
-            {
-              type: "category",
-              label: "Markup Object",
-              items: ["introduction/pro-version/markup-methods/intro"],
-            },
           ],
         },
         {
           type: "category",
           label: "Basic Version",
           items: [
-            {
-              type: "category",
-              label: "Getting Started",
-              items: [
-                "introduction/basic-version/getting-started/intro",
-                "introduction/basic-version/getting-started/dependencies",
-                "introduction/basic-version/getting-started/how-to-add-to-html",
-              ],
-            },
+            "introduction/basic-version/getting-started/dependencies",
+            "introduction/basic-version/getting-started/how-to-add-to-html",
             {
               type: "category",
               label: "File/Viewer",
@@ -770,12 +769,16 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Methods",
-                  items: ["introduction/basic-version/file/methods/openFilePagesPDFdoc"],
+                  items: [
+                    "introduction/basic-version/file/methods/openFilePagesPDFdoc",
+                  ],
                 },
                 {
                   type: "category",
                   label: "Callback Events",
-                  items: ["introduction/basic-version/file/callbacks/GUI_FileActivated"],
+                  items: [
+                    "introduction/basic-version/file/callbacks/GUI_FileActivated",
+                  ],
                 },
               ],
             },
@@ -786,7 +789,9 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Methods",
-                  items: ["introduction/basic-version/page/methods/loadThumbnails"],
+                  items: [
+                    "introduction/basic-version/page/methods/loadThumbnails",
+                  ],
                 },
               ],
             },
@@ -797,7 +802,9 @@ const sidebars: SidebarsConfig = {
                 {
                   type: "category",
                   label: "Methods",
-                  items: ["introduction/basic-version/pdf/methods/setPDFAnimateRender"],
+                  items: [
+                    "introduction/basic-version/pdf/methods/setPDFAnimateRender",
+                  ],
                 },
               ],
             },
@@ -812,15 +819,11 @@ const sidebars: SidebarsConfig = {
                 "introduction/basic-version/callback/GUI_PDFRenderComplete",
               ],
             },
-            {
-              type: "category",
-              label: "Markup Object",
-              items: ["introduction/basic-version/markup-methods/intro"],
-            },
           ],
         },
       ],
     },
+    "server/server",
   ],
 };
 

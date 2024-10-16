@@ -1,5 +1,3 @@
-## openFilePagesPDFdoc
-
 Use this method to open a PDF document limited to a specified page range but using an existing PDF document object retrieved from an already open PDF file using `RxCore.getPDFDocobj()`.
 
 ### Syntax
