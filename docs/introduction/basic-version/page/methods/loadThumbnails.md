@@ -4,7 +4,7 @@ document.
 ### Syntax
 
 ```typescript
-RxCore.loadIFCSpaces()
+RxCore.loadThumbnails()
 ```
 
 ### Parameters

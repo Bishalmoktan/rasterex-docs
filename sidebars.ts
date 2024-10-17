@@ -221,7 +221,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "category",
-          label: "Markup/Annoations",
+          label: "Markup/Annotations",
           items: [
             {
               type: "category",
@@ -363,6 +363,7 @@ const sidebars: SidebarsConfig = {
                 "introduction/markup-annotations/methods/useNoScale",
                 "introduction/markup-annotations/methods/getFont",
                 "introduction/markup-annotations/methods/setMarkupMarkedColor",
+                "introduction/markup-annotations/methods/removeLastPoint",
               ],
             },
             {
@@ -398,6 +399,8 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        "introduction/markup-methods/intro",
+        "introduction/callbackConnectionObject",
         {
           type: "category",
           label: "BIM/3D",
@@ -622,17 +625,10 @@ const sidebars: SidebarsConfig = {
 
         {
           type: "category",
-          label: "Markup Object",
-          items: ["introduction/markup-methods/intro"],
-        },
-
-        {
-          type: "category",
           label: "Pro Version",
           items: [
             "introduction/pro-version/getting-started/dependencies",
             "introduction/pro-version/getting-started/how-to-add-to-html",
-            "introduction/pro-version/getting-started/foxit-web-sdk-integration",
 
             {
               type: "category",
@@ -699,14 +695,13 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: "category",
-              label: "Markup/Annoations",
+              label: "Markup/Annotations",
               items: [
                 {
                   type: "category",
                   label: "Methods",
                   items: [
                     "introduction/pro-version/markup-annotations/methods/markupButtonFromMatch",
-                    "introduction/pro-version/markup-annotations/methods/removeLastPoint",
                   ],
                 },
               ],
@@ -747,12 +742,6 @@ const sidebars: SidebarsConfig = {
                   ],
                 },
               ],
-            },
-
-            {
-              type: "category",
-              label: "Callback Connection Objects",
-              items: ["introduction/pro-version/callback/introduction"],
             },
           ],
         },
@@ -813,7 +802,6 @@ const sidebars: SidebarsConfig = {
               type: "category",
               label: "Callback Connection Objects",
               items: [
-                "introduction/basic-version/callback/introduction",
                 "introduction/basic-version/callback/GUI_PDFBookmarks",
                 "introduction/basic-version/callback/GUI_PDFPassWord",
                 "introduction/basic-version/callback/GUI_PDFRenderComplete",
