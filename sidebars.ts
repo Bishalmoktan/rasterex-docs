@@ -809,6 +809,7 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        "introduction/how-to"
       ],
     },
     "server/server",
